@@ -28,7 +28,7 @@ function formatTime(seconds) {
 }
 
 function App() {
-  const [activeCategory, setActiveCategory] = useState('Jumble Roll Specials')
+  const [activeCategory, setActiveCategory] = useState('Jumbo Roll Specials')
   const [search, setSearch] = useState('')
   const [cart, setCart] = useState({})
   const [cartOpen, setCartOpen] = useState(false)
@@ -106,7 +106,7 @@ function App() {
         <div className="hero-grain" />
         <div className="hero-copy">
           <div className="eyebrow"><span className="eyebrow-line" /> THE ORIGINAL. THE ONLY. THE LEGEND.</div>
-          <h1>THE LEGENDARY<br /><span>JUMBLE ROLL</span></h1>
+          <h1>THE LEGENDARY<br /><span>JUMBO ROLL</span></h1>
           <p className="hero-subtitle">Big Flavour. Freshly Made. <strong>BITE-UP.</strong></p>
           <div className="hero-actions">
             <a className="button button-primary" href="#menu">EXPLORE MENU <Icon name="arrow" size={17} /></a>
@@ -118,7 +118,7 @@ function App() {
           <div className="art-glow" />
           <div className="art-orbit art-orbit-one" />
           <div className="art-orbit art-orbit-two" />
-          <div className="art-stamp">100%<br /><span>JUMBLE</span></div>
+          <div className="art-stamp">100%<br /><span>JUMBO</span></div>
           <RollScene />
           <div className="art-caption"><span>01 / THE ORIGINAL</span><span>FIRE-KISSED · MADE TO ORDER</span></div>
         </div>
@@ -141,7 +141,7 @@ function App() {
               </div>
               <div className="progress-track"><span style={{ width: `${progress}%` }} /></div>
               {secondsLeft === 0 && <p className="status-note">Your order may still be in preparation. Please check with the restaurant for the latest update.</p>}
-              <button className="button button-primary" onClick={() => { setOrder(null); setActiveCategory('Jumble Roll Specials'); window.setTimeout(() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' }), 0) }}>BACK TO MENU <Icon name="arrow" size={17} /></button>
+              <button className="button button-primary" onClick={() => { setOrder(null); setActiveCategory('Jumbo Roll Specials'); window.setTimeout(() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' }), 0) }}>BACK TO MENU <Icon name="arrow" size={17} /></button>
             </div>
             <div className="tracking-visual">
               <div className="tracking-heat" style={{ '--heat-progress': `${progress}%` }} />
@@ -166,7 +166,7 @@ function App() {
 
           <section className="manifesto" id="story">
             <div className="manifesto-left"><div className="eyebrow"><span className="eyebrow-line" /> NOT YOUR AVERAGE ROLL</div><h2>WE DIDN’T<br />FOLLOW THE<br /><em>RECIPE.</em></h2></div>
-            <div className="manifesto-right"><div className="manifesto-mark">B<span>U</span></div><p>We rolled up everything you love, turned the flavour all the way up, and made it our own. Crispy edges. Saucy middle. A little bit of chaos in every bite.</p><a href="#menu" className="text-link">MEET YOUR NEW OBSESSION <Icon name="arrow" size={16} /></a><div className="manifesto-side-note">THE JUMBLE ROLL — SINCE DAY ONE</div></div>
+            <div className="manifesto-right"><div className="manifesto-mark">B<span>U</span></div><p>We rolled up everything you love, turned the flavour all the way up, and made it our own. Crispy edges. Saucy middle. A little bit of chaos in every bite.</p><a href="#menu" className="text-link">MEET YOUR NEW OBSESSION <Icon name="arrow" size={16} /></a><div className="manifesto-side-note">THE JUMBO ROLL — SINCE DAY ONE</div></div>
             <div className="manifesto-number">01<span>/03</span></div>
           </section>
 
@@ -183,10 +183,10 @@ function App() {
               </div>
               <div className="featured-copy">
                 <div className="featured-topline"><span>THE BITE-UP ORIGINAL</span><span className="heat-label">✳ HOUSE FAVOURITE</span></div>
-                <h3>The Legendary<br /><em>Jumble Roll</em></h3>
+                <h3>The Legendary<br /><em>Jumbo Roll</em></h3>
                 <p>Smoky chicken, punchy sauces, a little crunch — all wrapped up in a warm, toasted roll. It’s a lot. That’s the point.</p>
                 <div className="featured-details"><span><b>01</b> BIG, BOLD BITE</span><span><b>02</b> ROLLED FRESH</span><span><b>03</b> GONE TOO SOON</span></div>
-                <div className="featured-buy"><strong>₹199</strong><button className="button button-primary" onClick={() => addToCart('jumble-original')}>ADD TO CART <Icon name="plus" size={17} /></button></div>
+                <div className="featured-buy"><strong>₹199</strong><button className="button button-primary" onClick={() => addToCart('jumbo-original')}>ADD TO CART <Icon name="plus" size={17} /></button></div>
               </div>
             </div>
             <div className="menu-toolbar">
@@ -198,7 +198,7 @@ function App() {
             <div className="menu-results"><span>SHOWING {visibleItems.length} OF {menuItems.length} BITES</span><span>MADE FRESH. ALWAYS.</span></div>
             {visibleItems.length ? <div className="menu-grid">
               {visibleItems.map((item, index) => (
-                <article className={`menu-card ${item.category === 'Jumble Roll Specials' ? 'jumble-card' : ''}`} key={item.id}>
+                <article className={`menu-card ${item.category === 'Jumbo Roll Specials' ? 'jumbo-card' : ''}`} key={item.id}>
                   <div className="menu-card-image">
                     <img src={item.image} alt={item.name} loading={index > 3 ? 'lazy' : 'eager'} />
                     <span className="card-category">{item.category}</span>

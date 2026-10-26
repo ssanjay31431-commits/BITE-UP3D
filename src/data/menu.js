@@ -1,5 +1,5 @@
 export const categories = [
-  'Jumble Roll Specials',
+  'Jumbo Roll Specials',
   'Fried Chicken',
   'Burgers',
   'Wraps',
@@ -16,9 +16,9 @@ export const categories = [
 const photo = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=800&q=80`
 
 export const menuItems = [
-  { id: 'jumble-original', name: 'The OG Jumble Roll', category: 'Jumble Roll Specials', price: 199, description: 'Smoky chicken, signature sauce, all rolled up.', image: photo('photo-1626700051175-6818013e1d4f') },
-  { id: 'jumble-firecracker', name: 'Firecracker Jumble', category: 'Jumble Roll Specials', price: 229, description: 'A little heat. A whole lot of happy.', image: photo('photo-1565299624946-b28f40a0ae38') },
-  { id: 'jumble-loaded', name: 'Fully Loaded Roll', category: 'Jumble Roll Specials', price: 249, description: 'Extra crunch, extra sauce, no regrets.', image: photo('photo-1529006557810-274b9b2fc783') },
+  { id: 'jumbo-original', name: 'The OG Jumbo Roll', category: 'Jumbo Roll Specials', price: 199, description: 'Smoky chicken, signature sauce, all rolled up.', image: photo('photo-1626700051175-6818013e1d4f') },
+  { id: 'jumbo-firecracker', name: 'Firecracker Jumbo', category: 'Jumbo Roll Specials', price: 229, description: 'A little heat. A whole lot of happy.', image: photo('photo-1565299624946-b28f40a0ae38') },
+  { id: 'jumbo-loaded', name: 'Fully Loaded Roll', category: 'Jumbo Roll Specials', price: 249, description: 'Extra crunch, extra sauce, no regrets.', image: photo('photo-1529006557810-274b9b2fc783') },
   { id: 'fried-crispy', name: 'Crispy Bird', category: 'Fried Chicken', price: 189, description: 'Golden crunch with our house spice.', image: photo('photo-1626082927389-6cd097cdc6ec') },
   { id: 'fried-hot', name: 'Hot & Sticky Wings', category: 'Fried Chicken', price: 219, description: 'Glazed, glossy, gone in a minute.', image: photo('photo-1527477396000-e27163b481c2') },
   { id: 'burger-classic', name: 'The Big Bite Burger', category: 'Burgers', price: 229, description: 'A proper burger, built for big cravings.', image: photo('photo-1568901346375-23c9450c58cd') },
@@ -35,7 +35,7 @@ export const menuItems = [
   { id: 'drink-coldbrew', name: 'Cold Coffee Shake', category: 'Beverages', price: 129, description: 'Cold, creamy coffee for the cool-down.', image: photo('photo-1461023058943-07fcbe16d735') },
   { id: 'loaded-fries', name: 'Loaded Chicken Fries', category: 'Loaded Chicken Fries', price: 229, description: 'Crispy fries buried in chicken and sauce.', image: photo('photo-1573080496219-bb080dd4f877') },
   { id: 'loaded-spicy', name: 'Chilli Cheese Chicken Fries', category: 'Loaded Chicken Fries', price: 249, description: 'Cheese pull, spicy chicken, crispy fries.', image: photo('photo-1630384060421-cb20d0e0649d') },
-  { id: 'combo-roll', name: 'Jumble Roll Meal', category: 'Combos', price: 299, description: 'The OG roll, fries, and a chilled drink.', image: photo('photo-1565299624946-b28f40a0ae38') },
+  { id: 'combo-roll', name: 'Jumbo Roll Meal', category: 'Combos', price: 299, description: 'The OG roll, fries, and a chilled drink.', image: photo('photo-1565299624946-b28f40a0ae38') },
   { id: 'combo-crunch', name: 'Crunch Time Combo', category: 'Combos', price: 329, description: 'Crispy chicken, masala fries, and fizz.', image: photo('photo-1562967914-608f82629710') },
   { id: 'addon-cheese', name: 'Extra Cheese', category: 'Extra Add-ons', price: 29, description: 'More melty goodness. Always a good call.', image: photo('photo-1486297678162-eb2a19b0a32d') },
   { id: 'addon-chicken', name: 'Extra Chicken', category: 'Extra Add-ons', price: 69, description: 'Because sometimes more is just right.', image: photo('photo-1626082927389-6cd097cdc6ec') },

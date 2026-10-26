@@ -154,7 +154,7 @@ function createIngredients() {
 }
 
 function FallbackRoll() {
-  return <div className="roll-fallback" aria-label="Illustrated toasted Jumble Roll"><div className="fallback-steam"><i /><i /><i /></div><div className="fallback-wrap"><span /><b /><i /></div><div className="fallback-shadow" /></div>
+  return <div className="roll-fallback" aria-label="Illustrated toasted Jumbo Roll"><div className="fallback-steam"><i /><i /><i /></div><div className="fallback-wrap"><span /><b /><i /></div><div className="fallback-shadow" /></div>
 }
 
 export default function RollScene({ progress = null, compact = false }) {

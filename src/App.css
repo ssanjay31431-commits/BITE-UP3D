@@ -164,7 +164,7 @@ main { overflow: hidden; }
 .menu-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:31px 16px; }
 .menu-card { min-width:0; background:#181311; border:1px solid #31241e; transition:transform .25s,border-color .25s; }
 .menu-card:hover { transform:translateY(-4px); border-color:#8b5434; }
-.menu-card.jumble-card { border-color:#754227; }
+.menu-card.jumbo-card { border-color:#754227; }
 .menu-card-image { height:185px; position:relative; overflow:hidden; background:#2a1c15; }
 .menu-card-image::after { content:""; position:absolute; inset:45% 0 0; background:linear-gradient(transparent,rgba(15,11,9,.55)); pointer-events:none; }
 .menu-card-image img { display:block; width:100%; height:100%; object-fit:cover; transition:transform .4s; filter:saturate(.82) brightness(.82); }

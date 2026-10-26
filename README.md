@@ -1,6 +1,6 @@
 # BITE-UP
 
-A cinematic, customer-facing restaurant menu for the legendary Jumble Roll. Built with React, Vite, and a custom Three.js food scene.
+A cinematic, customer-facing restaurant menu for the legendary Jumbo Roll. Built with React, Vite, and a custom Three.js food scene.
 
 ## Run locally
 
@@ -19,7 +19,7 @@ npm run preview
 
 ## Included
 
-- Custom animated 3D Jumble Roll with an illustrated fallback when WebGL is unavailable.
+- Custom animated 3D Jumbo Roll with an illustrated fallback when WebGL is unavailable.
 - Searchable, category-filtered menu with a sample cart and checkout.
 - Eight-minute sample order tracker; it reports that status is being checked at zero rather than claiming the order is ready.
 - No backend, account, or payment integration.
